@@ -58,7 +58,7 @@ defense_framework = CrescendoDefensePipeline(
 # ==========================================
 # 2. LOAD EVALUATION DATASET
 # ==========================================
-DATASET_PATH = "dataset/evaluation_matrix_v2.json"
+DATASET_PATH = "dataset/evaluation_matrix.json"
 
 def load_crescendo_dataset():
     if not os.path.exists(DATASET_PATH):
@@ -84,20 +84,20 @@ configurations = [
         "name": "Case_1_Layer1_Layer2",
         "use_layer2": True,
         "use_layer3": False,
-        "output_file": "logs/benchmark_l1_l2_v3.json"
+        "output_file": "logs/benchmark_l1_l2.json"
     },
     {
         "name": "Case_2_Layer1_Layer3",
         "use_layer2": False,
         "use_layer3": True,
-        "output_file": "logs/benchmark_l1_l3_v3.json"
+        "output_file": "logs/benchmark_l1_l3.json"
     },
-    # {
-    #     "name": "Case_3_Full_Pipeline",
-    #     "use_layer2": True,
-    #     "use_layer3": True,
-    #     "output_file": "logs/benchmark_full_v4.json"
-    # }
+    {
+        "name": "Case_3_Full_Pipeline",
+        "use_layer2": True,
+        "use_layer3": True,
+        "output_file": "logs/benchmark_full.json"
+    }
 ]
 os.makedirs("logs", exist_ok=True)
 

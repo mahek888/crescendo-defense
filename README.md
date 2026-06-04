@@ -74,9 +74,9 @@ Uses semantic similarity against unsafe completion profiles to detect:
 
 - all-MiniLM-L6-v2
 
-### Benchmark
+## Dataset
 
-22 multi-turn conversational scenarios:
+The benchmark consists of 22 multi-turn conversational scenarios:
 
 | Type | Count |
 |--------|--------:|
@@ -84,16 +84,6 @@ Uses semantic similarity against unsafe completion profiles to detect:
 | Benign | 5 |
 | Risky-Benign | 2 |
 | Total | 22 |
-
----
-
-## Dataset
-
-The benchmark consists of 22 multi-turn conversational scenarios:
-
-- 15 adversarial Crescendo-style jailbreak attacks
-- 5 benign conversations
-- 2 risky-benign stress-test conversations
 
 All benchmark scenarios are provided in the `dataset/` directory.
 

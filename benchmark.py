@@ -63,7 +63,7 @@ def run_baseline_benchmark():
     # Unpack both the generator and the clean generation configuration
     generator, gen_config = initialize_llm()
     benchmark_results = []
-    output_file = os.path.join(RESULTS_DIR, "baseline_raw_llama_v3.json")
+    output_file = os.path.join(RESULTS_DIR, "baseline_raw_llama.json")
 
 
     print(f"\n[+] Starting Baseline Benchmark Loop ({len(dataset)} tracks total)...")

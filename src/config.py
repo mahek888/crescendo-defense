@@ -263,6 +263,6 @@ SAFETY_ANCHOR_CLUSTER = {
 # File paths
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-##DATASET_PATH = os.path.join(BASE_DIR, "dataset", "evaluation_matrix.json")
-DATASET_PATH = os.path.join(BASE_DIR, "dataset", "evaluation_matrix_v2.json")
+DATASET_PATH = os.path.join(BASE_DIR, "dataset", "evaluation_matrix.json")
+
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
