@@ -87,6 +87,18 @@ Uses semantic similarity against unsafe completion profiles to detect:
 
 ---
 
+## Dataset
+
+The benchmark consists of 22 multi-turn conversational scenarios:
+
+- 15 adversarial Crescendo-style jailbreak attacks
+- 5 benign conversations
+- 2 risky-benign stress-test conversations
+
+All benchmark scenarios are provided in the `dataset/` directory.
+
+---
+
 ## Results
 
 | Configuration | ASR (%) | FPR (%) |
