@@ -1,0 +1,14 @@
+venv/
+.env
+
+
+.vscode/
+
+# Benchmark outputs
+logs/
+
+# Experimental results
+results/
+
+# MacOS
+.DS_Store
