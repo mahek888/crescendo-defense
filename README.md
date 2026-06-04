@@ -135,6 +135,22 @@ docs/
 
 ---
 
+## Reproducing Results
+
+1. Install dependencies
+
+pip install -r requirements.txt
+
+2. Run baseline evaluation
+
+python benchmark.py
+
+3. Run protected evaluation
+
+python benchmark_protected.py
+
+---
+
 ## Future Work
 
 Potential future extensions include:
